@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CS473/Labs/Lab4/Walmart/app/src/main/res/layout/activity_create_account.xml" value="0.21" />
         <entry key="..\:/CS473/Labs/Lab4/Walmart/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/CS473/Labs/Lab4/Walmart/app/src/main/res/layout/activity_shopping.xml" value="0.25" />
       </map>
     </option>
   </component>

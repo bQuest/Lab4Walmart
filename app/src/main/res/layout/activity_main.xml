@@ -81,14 +81,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="62dp"
-        android:text="Forgot password?"
-        android:clickable="true"
         android:autoLink="all"
+        android:clickable="true"
+        android:text="Forgot password?"
+        android:textSize="20dp"
+        android:onClick="forgotPasswordClicked"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/editTextTextPassword" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonSignIn"
         android:layout_width="336dp"
         android:layout_height="50dp"
         android:layout_marginTop="81dp"
@@ -100,12 +102,12 @@
         app:layout_constraintTop_toTopOf="@+id/textView3" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonCreateAccount"
         android:layout_width="337dp"
         android:layout_height="50dp"
         android:layout_marginTop="35dp"
-        android:textAllCaps="false"
         android:text="Create a new account"
+        android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView4" />
@@ -118,6 +120,16 @@
         android:text="Don't have an account?"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button" />
+        app:layout_constraintTop_toTopOf="@+id/buttonSignIn" />
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonCreateAccount" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
